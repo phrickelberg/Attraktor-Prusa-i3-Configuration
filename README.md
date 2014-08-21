@@ -3,7 +3,7 @@ Attraktor Prusa i3 Configuration
 
 Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rework im Attraktor. Das ganze funktioniert so:
 
-Installation und Einrichtung
+<h2>Installation und Einrichtung</h2>
 * [Slic3r](http://slic3r.org) installieren (Mac, Windows, Linux)
 * Optional, nicht unbedingt erforderlich, könnt ihr noch [Repetier](http://www.repetier.com) installieren (Mac, Windows, Linux)
 * Die config-bundle.ini hier aus dem Repo-Verzeichnis "Slic3r" downloaden und per "Import Config Bundle" in Slic3r importieren
