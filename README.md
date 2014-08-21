@@ -8,7 +8,7 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 * Optional, nicht unbedingt erforderlich, könnt ihr noch [Repetier](http://www.repetier.com) installieren (Mac, Windows, Linux)
 * Die config-bundle.ini hier aus dem Repo-Verzeichnis "Slic3r" downloaden und per "Import Config Bundle" in Slic3r importieren
 
-Slicen
+<h2>Slicen</h2>
 * Im Plater-Tab für "Print Settings" die Einstellung "Attraktor Quality" auswählen
 * Im Plater-Tab für "Filament" die Einstellung "ABS 1.75 Attraktor" oder "PLA 1.75 Attraktor" auswählen (je nachdem, welches Material in den Drucker eingelegt ist)
 * Im Plater-Tab für "Printer" die Einstellung "Attraktor Prusa i3" auswählen
@@ -16,7 +16,7 @@ Slicen
 * Auf "Export G-code" klicken und die *.gcode Datei z.B. auf den Desktop abspeichern
 * Die *.gcode Datei auf die SD-Karte kopieren
 
-Drucken
+<h2>Drucken</h2>
 * Die SD-Karte auswerfen und in den Smart-Controller am Drucker stecken
 * Den Drucker vorheizen (Am Smart-Controller der Menüpunkt "Prepare->Preheat ABS/PLA")
 * Warten, bis der Drucker die Betriebstemperatur erreicht hat (auf dem Display gucken)
