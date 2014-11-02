@@ -59,5 +59,6 @@ Im Verzeichnis "Marlin" findet ihr die Konfigurationsdatei der Marlin Firmware d
 Quellen
 -------------------------
 * Slic3r [slic3r.org](http://slic3r.org)
+* Cura [ultimaker.com](http://software.ultimaker.com)
 * Repetier [repetier.com](http://www.repetier.com)
 * Marlin [github.com](https://github.com/ErikZalm/Marlin)
