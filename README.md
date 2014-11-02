@@ -10,6 +10,7 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 * Die config-bundle.ini hier aus dem Repo-Verzeichnis "Slic3r" downloaden und per "Import Config Bundle" in Slic3r importieren
 
 <h2>2. Slicen..</h2>
+
 <h3>..mit Slic3r</h3>
 * Im Plater-Tab für "Print Settings" die Einstellung "E3D 0.4 Standard" auswählen
 * Im Plater-Tab für "Filament" die Einstellung "ABS 1.75" oder "PLA 1.75" auswählen (je nachdem, welches Material in den Drucker eingelegt ist)
@@ -17,6 +18,7 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 * Die zu druckende(n) *.STL Datei(en) in den Plater laden
 * Auf "Export G-code" klicken und die *.gcode Datei z.B. auf den Desktop abspeichern
 * Die *.gcode Datei auf die SD-Karte kopieren
+
 <h3>..mit Cura</h3>
 * Beim ersten Start den Drucker einrichten, dazu die Werte aus dem Screenshot "Cura/Machine Settings.png" hier im Repo übernehmen
 * Druckprofil "Cura-Settings-Standard.ini" aus dem Repo über "File -> Open Profile" laden
@@ -25,6 +27,7 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 * Die *.gcode Datei auf die SD-Karte kopieren
 
 <h2>3. Drucken</h2>
+
 * Die SD-Karte auswerfen und in den Smart-Controller am Drucker stecken
 * Den Drucker vorheizen (Am Smart-Controller der Menüpunkt "Prepare->Preheat ABS/PLA")
 * Warten, bis der Drucker die Betriebstemperatur erreicht hat (auf dem Display gucken)
