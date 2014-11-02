@@ -9,7 +9,6 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 * Optional, nicht unbedingt erforderlich, könnt ihr noch [Repetier](http://www.repetier.com) installieren (Mac, Windows, Linux)
 * Die config-bundle.ini hier aus dem Repo-Verzeichnis "Slic3r" downloaden und per "Import Config Bundle" in Slic3r importieren
 
-<<<<<<< HEAD
 <h2>2. Slicen..</h2>
 <h3>..mit Slic3r</h3>
 * Im Plater-Tab für "Print Settings" die Einstellung "Attraktor" auswählen
