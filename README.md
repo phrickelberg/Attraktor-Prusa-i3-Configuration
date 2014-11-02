@@ -5,15 +5,23 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 
 <h2>1. Installation und Einrichtung</h2>
 * [Slic3r](http://slic3r.org) installieren (Mac, Windows, Linux)
+* alternativ zu Slic3r könnt ihr auch [Cura](http://software.ultimaker.com) (Mac, Windows, Linux) verwenden
 * Optional, nicht unbedingt erforderlich, könnt ihr noch [Repetier](http://www.repetier.com) installieren (Mac, Windows, Linux)
 * Die config-bundle.ini hier aus dem Repo-Verzeichnis "Slic3r" downloaden und per "Import Config Bundle" in Slic3r importieren
 
-<h2>2. Slicen</h2>
+<h2>2. Slicen..</h2>
+<h3>..mit Slic3r</h3>
 * Im Plater-Tab für "Print Settings" die Einstellung "Attraktor" auswählen
 * Im Plater-Tab für "Filament" die Einstellung "Attraktor ABS" oder "Attraktor PLA" auswählen (je nachdem, welches Material in den Drucker eingelegt ist)
 * Im Plater-Tab für "Printer" die Einstellung "Attraktor" auswählen
 * Die zu druckende(n) *.STL Datei(en) in den Plater laden
 * Auf "Export G-code" klicken und die *.gcode Datei z.B. auf den Desktop abspeichern
+* Die *.gcode Datei auf die SD-Karte kopieren
+<h3>..mit Cura</h3>
+* Beim ersten Start den Drucker einrichten, dazu die Werte aus dem Screenshot "Cura/Machine Settings.png" hier im Repo übernehmen
+* Druckprofil "Cura-Settings-Standard.ini" aus dem Repo über "File -> Open Profile" laden
+* Die zu druckende(n) *.STL Datei(en) über den "Load" Button laden
+* Nachdem Cura fertig ist mit Slicen über "File -> Save G-code" die *.gcode Datei z.B. auf den Desktop abspeichern
 * Die *.gcode Datei auf die SD-Karte kopieren
 
 <h2>3. Drucken</h2>
@@ -30,7 +38,11 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 
 Slic3r
 -------------------------
-Im Verzeichnis "Slic3r" sind die Drucker und Filamentkonfigurationen für Slic3r sowie gute Druckeinstellungen. Importiert diese in Slic3r und speichert dann die Profile nocheinmal im vorgesehenen Tab, da importierte Profile nicht automatisch gespeichert werden.
+Drucker und Filamentkonfigurationen für Slic3r sowie gute Druckeinstellungen. Die Konfigurationen sind so angelegt, dass ihr zwischen Slic3r und Cura wechseln könnt, ohne Einstellungen am Drucker zu verändern (z.B. E_STEPS)
+
+Cura
+-------------------------
+Drucker und Filamentkonfigurationen für Cura sowie gute Druckeinstellungen. Die Konfiguration sind so angelegt, dass ihr zwischen Slic3r und Cura wechseln könnt, ohne Einstellungen am Drucker zu verändern (z.B. E_STEPS)
 
 Repetier
 -------------------------
