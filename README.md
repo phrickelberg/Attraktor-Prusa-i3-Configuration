@@ -29,7 +29,7 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 <h2>3. Drucken</h2>
 * Drucker am ATX-Netzteil einschalten, der Schalter befindet sich hinten über der Kaltgerätebuchse
 * Am Drucker ist ein Display-Controller mit SD-Kartenleser, mit dem Dreh-und-Druckknopf könnt ihr diesen bedienen
-* Unter dem Dreh-Druckknopf befindet sich der etwas kleinere Not-Aus-Knopf, diesen bitte bei Bedarf benutzen. Danach muss der Drucker komplett am Netzteil abgeschaltet werden. Dann Netzeil abschalten, warten bis das Display ausgeht, und wieder anschalten.
+* Unter dem Dreh-Druckknopf befindet sich der etwas kleinere Not-Aus-Knopf, diesen bitte bei Bedarf benutzen. Danach muss der Drucker komplett am Netzteil abgeschaltet werden. Dann Netzeil abschalten, warten bis das Display ausgeht, und wieder anschalten. Leider funktioniert der Not-Aus Knopf nicht während der Homing-Prozedur, d.h. hier müsst ihr gleich schnell das Netzteil abschalten.
 * Ein Klick auf den Dreh-Druckknopf bringt euch ins Hauptmenü
 * Die SD-Karte am Rechner auswerfen und in den Smart-Controller am Drucker stecken
 * Das Heizbett vorheizen (Am Smart-Controller der Menüpunkt "Prepare->Preheat ABS/PLA Bed")
