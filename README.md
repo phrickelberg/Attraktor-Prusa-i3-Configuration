@@ -27,17 +27,25 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 * Die *.gcode Datei auf die SD-Karte kopieren
 
 <h2>3. Drucken</h2>
-
-* Die SD-Karte auswerfen und in den Smart-Controller am Drucker stecken
-* Den Drucker vorheizen (Am Smart-Controller der Menüpunkt "Prepare->Preheat ABS/PLA")
-* Warten, bis der Drucker die Betriebstemperatur erreicht hat (auf dem Display gucken)
-* Falls schon gedruckt wurde und der Extruder Motor noch "stall" ist, im Menü unter "Prepare->Disable Motors" die Motoren abschalten
-* Wenn der Drucker ausgeschaltet ist am großen Zahnrad im Uhrzeigersinn drehen bis etwas Kunststoff aus der Düse kommt
+* Drucker am ATX-Netzteil einschalten, der Schalter befindet sich hinten über der Kaltgerätebuchse
+* Am Drucker ist ein Display-Controller mit SD-Kartenleser, mit dem Dreh-und-Druckknopf könnt ihr diesen bedienen
+* Unter dem Dreh-Druckknopf befindet sich der etwas kleinere Not-Aus-Knopf, diesen bitte bei Bedarf benutzen. Danach muss der Drucker komplett am Netzteil abgeschaltet werden. Dann Netzeil abschalten, warten bis das Display ausgeht, und wieder anschalten.
+* Ein Klick auf den Dreh-Druckknopf bringt euch ins Hauptmenü
+* Die SD-Karte am Rechner auswerfen und in den Smart-Controller am Drucker stecken
+* Das Heizbett vorheizen (Am Smart-Controller der Menüpunkt "Prepare->Preheat ABS/PLA Bed")
+* Warten, bis das Heizbett die Betriebstemperatur erreicht hat (auf dem Display gucken), das kann schon mal 20min dauern!
+* Während des Aufheizens kann man ein Stück Pappe oder Holz auf das Heizbett legen, um das Aufheizen zu beschleunigen
+* Den Extruder vorheizen (Am Smart-Controller der Menüpunkt "Prepare->Preheat ABS/PLA 1")
+* Warten, bis der Extruder die Betriebstemperatur erreicht hat (auf dem Display gucken), das dauert nur wenige Minuten!
+* Falls schon gedruckt wurde und der Extruder Motor noch "stall" ist (= sich nicht bewegen lässt), im Menü unter "Prepare->Disable Motors" die Motoren abschalten
+* Wenn die Motoren ausgeschaltet sind am großen Zahnrad gegen den Uhrzeigersinn drehen bis etwas Kunststoff aus der Düse kommt
 * Kunstoff von der Düse entfernen
 * Am Smart-Controller unter "Print from SD" die zu druckende *.gcode Datei auswählen
 * Der Druckvorgang startet
 * Das Auto Bed Leveling wird ausgeführt
 * Die erste Druckschicht am besten noch beobachten, danach Druckvorgang gelegentlich überprüfen
+* Ist der Drucker fertig, fährt er in eine Ruheposition und schaltet Heizbett, Extruder und Motoren ab
+* Um den Druck von der PEI-Platte zu bekommen, muss diese aber auf 110° aufgeheizt sein. Also ggf. nochmal über Prepare -> Preheat ABS -> Preheat ABS Bed aufheizen. Dann kann man den Druck vorsichtig mit einer Teppichmesser-Klinge von Heizbett entfernen.
 
 Slic3r
 -------------------------
