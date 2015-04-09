@@ -22,7 +22,7 @@ Hier findet ihr alle Konfigurationsdaten zum Betrieb des Prusa i3 Einstein Rewor
 
 <h3>..mit Cura</h3>
 * Beim ersten Start den Drucker einrichten, dazu die Werte aus dem Screenshot "Cura/Machine Settings.png" hier im Repo übernehmen
-* Druckprofil "Cura-Settings-Standard.ini" aus dem Repo über "File -> Open Profile" laden
+* Druckprofil "Cura-Settings-Auto-Bed-Leveling.ini" aus dem Repo über "File -> Open Profile" laden
 * Die zu druckende(n) *.STL Datei(en) über den "Load" Button laden
 * Nachdem Cura fertig ist mit Slicen über "File -> Save G-code" die *.gcode Datei z.B. auf den Desktop abspeichern
 * Die *.gcode Datei auf die SD-Karte kopieren
